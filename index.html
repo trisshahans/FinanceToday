@@ -1,0 +1,1084 @@
+<!DOCTYPE html><html xmlns="https://www.w3.org/1999/xhtml" dir="ltr"><head><b_a_s_e href="/landers/38227/1600334543/">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BREAKING NEWS</title>
+	<link href="bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" href="style2.css" type="text/css">
+	<meta name="referrer" content="no-referrer">
+
+	<link rel="stylesheet" href="intlTelInput.min.css">
+	<style>
+		.iti-flag {
+			background-image: url("assets/flags.png");
+		}
+
+		@media (-webkit-min-device-pixel-ratio: 2),
+		(min-resolution: 192dpi) {
+			.iti-flag {
+				background-image: url("assets/flags_2x.png");
+			}
+		}
+
+		.intl-tel-input {
+			width: 100%;
+			margin-bottom: 15px;
+		}
+	</style>
+</head>
+
+<body style="padding: 0px;" class="iti-mobile">
+	<script src="null">var domIsReady = (function(domIsReady) {
+   var isBrowserIeOrNot = function() {
+      return (!document.attachEvent || typeof document.attachEvent === "undefined" ? 'not-ie' : 'ie');
+   }
+
+   domIsReady = function(callback) {
+      if(callback && typeof callback === 'function'){
+         if(isBrowserIeOrNot() !== 'ie') {
+            document.addEventListener("DOMContentLoaded", function() {
+               return callback();
+            });
+         } else {
+            document.attachEvent("onreadystatechange", function() {
+               if(document.readyState === "complete") {
+                  return callback();
+               }
+            });
+         }
+      } else {
+         console.error('The callback is not a function!');
+      }
+   }
+
+   return domIsReady;
+})(domIsReady || {});
+var ged=(function(){var d={};return{addListener:function(b,c){if(typeof c!=='function'){console.error(`The listener c must be a function,the given type is ${typeof c}`);return false}if(typeof b!=='string'){console.error(`The b name must be a string,the given type is ${typeof b}`);return false}if(d[b]===undefined){d[b]={listeners:[]}}d[b].listeners.push(c)},removeListener:function(b,c){if(d[b]===undefined){console.error(`This b:${b}does not exist`);return false}d[b].listeners=d[b].listeners.filter(function(a){return a.toString()!==c.toString()})},dispatch:function(b,c){if(d[b]===undefined){console.error(`This b:${b}does not exist`);return false}d[b].listeners.forEach(function(a){a(c)})}}})();
+</script>
+<script src="null">var leadEmulated = false;var linkClicked = false;function getrandom(n,r){return Math.round(Math.random()*(r-n)+n)}function g(n,d){var v=(RegExp(n+'='+'([^&]+?)(&|$)').exec(location.search)||[,null])[1];if(v){v=decodeURI(v)}return v||d}function ae(i,e,f){i.addEventListener(e,f)}function wndsize(){var w=0;var h=0;if(!window.innerWidth){if(!(document.documentElement.clientWidth==0)){w=document.documentElement.clientWidth;h=document.documentElement.clientHeight}else{w=document.body.clientWidth;h=document.body.clientHeight}}else{w=window.innerWidth;h=window.innerHeight}return{width:w,height:h}}var beacon=function(opts){opts=opts||{};opts.url=opts.url||null;opts.vars=opts.vars||{};opts.error=opts.error||function(){};opts.success=opts.success||function(){};var varsArray=[];for(var key in opts.vars){varsArray.push(key+'='+encodeURIComponent(opts.vars[key]))}var qString=varsArray.join('&');if(opts.url){var beacon=new Image();if(beacon.onerror){beacon.onerror=opts.error}if(beacon.onload){beacon.onload=opts.success}beacon.src=opts.url+(qString?'?':'')+qString}};var Tracker=(function(){var clickId=0;var domain='';var _public={init:function(d){domain=d},setClickId:function(value){clickId=value},trackDepth:function(depth){if(!clickId){return}beacon({url:'https://'+domain+'/depth/',vars:{depth:depth,cid:clickId}})}};return _public})();var ScrollDepthTracker=(function(){var bottomBoxPage=3;var currentPage=1;var windowHeight;function trackScroll(){var top=window.pageYOffset||document.documentElement.scrollTop;var pageNum=Math.floor(top/windowHeight)+1;if(pageNum>currentPage){Tracker.trackDepth(pageNum);gpush({'event': 'Depth' + pageNum});if(typeof WatchTracker!='undefined'){WatchTracker.trackEvent('scrollDepth',pageNum)};var bottomBox=document.getElementById('bottomBox');if(bottomBox&&pageNum>=bottomBoxPage){bottomBox.style.display='block'}currentPage=pageNum}}var _public={init:function(){windowHeight=wndsize().height;ae(window,'scroll',trackScroll);trackScroll()}};return _public})();function emulateClick(){if(!linkClicked){beacon({url:'http://intelligentendorses.site/click/?origin=X0qiDiYAI3-92641-d59a1b85-9a43-4537-8c5b-41d79841a15c'});linkClicked=true}};function emulateLead(){if(!leadEmulated){emulateClick();beacon({url:'http://intelligentendorses.site/postback/?cid=d59a1b85-9a43-4537-8c5b-41d79841a15c'});leadEmulated=true}};function scrollToElement(el){ if (el) { window.scrollTo(0, el.offsetTop); }}function render(template,options){return template.replace(/\{\{\s?(\w+)\s?\}\}/g,(match,variable)=>{return options[variable]||''})};function ajaxPost(b,c,d){var d=d ? d : b.action,xhr=new XMLHttpRequest();var e=[].filter.call(b.elements,function(a){return 1;return typeof(a.checked)==='undefined'||a.checked}).filter(function(a){return!!a.name}).filter(function(a){return !a.disabled}).map(function(a){return encodeURIComponent(a.name)+'='+encodeURIComponent(a.value)}).join('&');xhr.open("POST",d);xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");xhr.onload=c.bind(xhr);xhr.send(e)}Tracker.init('intelligentendorses.site');Tracker.setClickId('d59a1b85-9a43-4537-8c5b-41d79841a15c');Tracker.trackDepth(1);if (typeof noDepthTrack == 'undefined') { ScrollDepthTracker.init(); }
+
+function gpush(ev){
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push(ev);
+}
+
+function trackEvent(event)
+{
+    if (typeof fbq === 'function') {
+        fbq('track', event);
+    }
+    
+    if (typeof ym === 'function' && typeof z_metrika === 'string' && z_metrika) {
+        ym(z_metrika, 'reachGoal', event);
+    }
+    
+    gpush({'event': event});
+}
+
+setTimeout(function(){ trackEvent('Time15'); }, 15 * 1000);
+setTimeout(function(){ trackEvent('Time30'); }, 30 * 1000);
+setTimeout(function(){ trackEvent('Time60'); }, 60 * 1000);
+
+function fixHashScroll()
+{
+    document.querySelectorAll('a:link').forEach(function(link){
+		link.addEventListener('click', function(event){
+		    var parts = this.href.split('#');
+		    if (parts.length == 2) {
+		        event.preventDefault();
+			    var target = document.querySelector('#' + parts[1]);
+			    scrollToElement(target);
+			    //form.querySelector('input[type="text"]').focus();
+		    }
+		});
+	});
+}
+
+function replaceUrlParam(url, paramName, paramValue)
+{
+    if (paramValue == null) {
+        paramValue = '';
+    }
+    var pattern = new RegExp('\\b('+paramName+'=).*?(&|#|$)');
+    if (url.search(pattern)>=0) {
+        return url.replace(pattern,'$1' + paramValue + '$2');
+    }
+    url = url.replace(/[?#]$/,'');
+    return url + (url.indexOf('?')>0 ? '&' : '?') + paramName + '=' + paramValue;
+}
+
+</script> <script src="null">
+var _fbpixel = (typeof g === 'function') ? g('fbpixel', '581670452529567') : '581670452529567';
+
+function fbq(action, data) {
+    if (_fbpixel && action == 'track') {
+        var img = new Image();
+        img.src = 'https://www.facebook.com/tr?id='+_fbpixel+'&ev='+data+'&noscript=1'
+    }
+}
+
+if (_fbpixel) {
+domIsReady(function(){
+        var links = document.querySelectorAll("a");
+        links.forEach(function (link, i) {
+            link.href = replaceUrlParam(link.href, 'fbpixel', _fbpixel);
+        });
+    })
+}
+
+fbq('track',"PageView");  
+
+</script>
+	<section class="content-box">
+		<div class="container content">
+			<div class="row">
+				<div class="col-md-8">
+					<h1><strong><u>SPECIAL REPORT</u>: How Brits Are Earning Millions From Home During Coronavirus Pandemic. She
+							is LEAVING Dragon's Den To Focus On Her Investment.</strong></h1>
+					<a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"><img src="asseenin.jpg" class="img-responsive" style="padding: 0px;"></a>
+					<a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"> <img src="angle1.jpg" class="img-responsive" style="padding: 0px;"></a>
+
+					<i>(
+						<script language="Javascript" src="null">
+							// Array of day names
+							var dayNames = new Array("Sunday", "Monday", "Tuesday", "Wednesday",
+								"Thursday", "Friday", "Saturday");
+							// Array of month Names
+							var monthNames = new Array(
+								"January", "February", "March", "April", "May", "June", "July",
+								"August", "September", "October", "November", "December");
+							var now = new Date();
+							document.write(dayNames[now.getDay()] + ", " +
+								monthNames[now.getMonth()] + " " +
+								now.getDate() + ", " + now.getFullYear());
+						</script>Monday, September 21, 2020) - One of UK's top entrepreneur comes
+						out with new secret that's making millions of Brits rich </i>
+
+					<p class="m-t-25"><strong>(BBC)</strong> - Entrepreneur Deborah Meaden just bought her new Mercedes using
+						money she earned not from her TV shows - but from a new controversial investment she revealed on live
+						television. <b>“Due to the Virus epidemic that hit our Country, the market is changing rapidly.
+							Everybody should stay at home and build massive wealth by using this system!” Said Meaden.</b>
+					</p>
+					<p class="m-t-25">During our exclusive interview, Meaden admitted that she earned<strong> £11.5 million last year
+							through a <a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"> new controversial
+								system</a></strong> she shared with Phillip and Holly on ITV's This Morning. </p>
+					<p class="m-t-25">Here's what the entrepreneur herself has to say about her secret money-making methods:</p>
+					<p>
+						<img src="angle2.jpg" class="img-responsive" style="padding: 0px;">
+						<i>Deborah Meaden reveals her new money-making secret live on This Morning.</i></p>
+					<p class="m-t-25"> <i>"Listen, I wanted to do something different. Something special. You see, I've
+							been blessed to live my dream life because I've had the privilege of owning multiple businesses and
+							starring on reality TV shows. </i><i></i></p>
+					<p class="m-t-25"><i>Today, I want to give back and show everyone EXACTLY how I've made millions of dollars
+							over the last few months outside of my regular businesses. It's something I've been doing on the side, and
+							<strong>something anyone in the UK can do</strong>, and it made enough for me to buy many luxury cars.
+						</i></p>
+					<p class="m-t-25"><i>My passion will always be to help people. I stumbled upon a new system called <strong><a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"><b>Trading Platform</b> </a></strong> that made me more money in the last 6 months than any of my other businesses.</i><em> And the best part is,
+							this amazing opportunity just became available to regular folks in the UK so I have to share it with
+							everyone. </em></p>
+					<p class="m-t-25"><em>I'll explain what <strong><a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"><b>Trading Platform</b>
+								</a></strong> is in just a
+							bit. But first, to prove how amazing
+							this system really is. Holly, I will give you £190 to deposit and try it yourself right now."</em></p>
+					<p>Meaden then wrote a check for £190, which Holly deposited into the system to try it herself. Within
+						minutes, Holly<em>'s </em>jaw dropped open as she began <strong>making a real profit</strong> - on live
+						television!</p>
+					<p><i>
+
+							<img src="shock.jpg" class="img-responsive" style="padding: 0px;"><br>
+							<i>Holly deposited £190 and tried the system herself. Within minutes, she was <strong>up over £539.13
+									in profit</strong>!</i>
+
+						</i></p>
+					<p>Meaden continued,</p>
+					<i>
+						<p class="m-t-25">"Now I know what you're thinking Phillip and Holly. You probably think this is a trick or
+							it doesn't make sense. You may have seen Bitcoin or Etherum on the news, and maybe even invested into it
+							yourself. Maybe you think it's a scam because you don't understand it or lost money. </p>
+						<p class="m-t-25">Well, what I do to earn at least 6 figures every month is something completely different.
+							I use this <a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"><b>Trading Platform</b> </a> to
+							cash in on the Bitcoin boom with absolutely no investing or technology experience. <strong>And the best
+								part is, anyone can do the same.</strong></p>
+						<p class="m-t-25">You just saw how fast this works yourself"</p>
+					</i>
+					<p class="m-t-25">Before Holly could even mutter a word, Meaden continues...</p>
+					<i>
+						<p class="m-t-25">"Look guys, I love to help people in their businesses. I don't have time to sit in front
+							of a computer and trade cryptocurrencies all day. That's why I use <a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"><b>Trading Platform</b> </a>
+							to do it for me
+							automatically. It's is<strong> backed by Bill Gates, Richard Branson and Mark Zuckerberg</strong> - some
+							of the smartest tech minds on the planet.</p>
+						<p class="m-t-25">See, most people think the Bitcoin boom is over. But in fact, it's just getting started."
+						</p>
+						<img src="bransonmusk.jpg" class="img-responsive" style="padding: 0px;">
+						<p class="m-t-25"><a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"><b>Trading Platform</b> </a>
+							is backed by Bill Gates, Richard Branson and Mark Zuckerberg </p>
+						<p class="m-t-25">"Now I'm not going to bullshit you or your viewers. Not every trade is a profitable one.
+							See, the automated software using advanced machine learning and data modelling to make trades. To be
+							honest, I barely know what that means besides it works very well. </p>
+						<p class="m-t-25">However, the system does mess up sometimes. Nothing is ever going to be right 100% of the
+							time. Yet even with it's mistakes, I'm still profitable about 80-89% of the time. That means for every 1
+							losing trade, these are about 9 winning ones.</p>
+						<p class="m-t-25">It's trading hundreds of times per hour, 24 hours a day, 7 days a week, so you can imagine
+							how that much adds up. <strong>On an average day, I'll make about £19,000 to £31,000 profit</strong>.
+							Unbelievable right? What I do is take out about half for play money - travel, cars, toys. And then I
+							reinvest the other half. That's how I'm able to earn more and more money over time. </p>
+						<p class="m-t-25">Last month, <strong>I pulled in £619,830 simply by simply letting the software do it's
+								thing.</strong> Now I know this sounds too good to be true, and to be honest, I wouldn't believe it
+							either if I heard this a year ago. But how else do you think I have so much money to throw around on new
+							cars?</p>
+					</i>
+					<p><i> <img src="angle3.jpg" class="img-responsive" style="padding: 0px;"></i></p>
+					<p><em>"All the money I earn from my business and TV shows goes into a trust for my kids. The money I earn
+							from <a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"><b>Trading Platform</b> </a> is my play
+							money and I use it to buy luxury cars and houses."</em></p>
+					<p>Just when Phillip was about to thank Meaden for her time, the internet sensation dropped another bomb:</p>
+					<i>
+						<p class="m-t-25">"As a thank you for inviting me on your show guys, I'm going to give your viewers some
+							golden tips to make the most money out of this system:</p>
+						<p class="m-t-25"><strong>1. The minimum amount to get started is £190. </strong>However, I recommend
+							depositing a little more - £270 or £300 and here's why: The algorithm gives priority to users who deposit
+							more, so you'll notice you have more winning trades when your deposit is higher than the average persons.
+							I gound out that I make extra 20-25% just by depositing a little more upfront.</p>
+						<p class="m-t-25"><strong>2. Trade all of the cryptocurrencies available, not just Bitcoin.</strong> Most
+							people only trade Bitcoin because that's the only one they heard of. But these are dozens of other ones
+							such as Etherum, Monero, Litecoin, Zcash and so on. Trading these digital currencies can give much better
+							returns because most people don't even tough them. In fact, I make about half of my daily profits through
+							these smaller coins. </p>
+						<p class="m-t-25"><strong>3. Most importantly, reinvest your earnings on a regular basis! </strong>When
+							you start seeing this system work for your eyes, you'll be amazing and want to take all your cash out and
+							go shopping. That's fine but be sure to re-invest your earnings too, so you can make even more in the
+							long-term. A good rule of thumb, is to take out half of your daily profits, and re-invest the other half-
+							that's how I was able to get to £8,000 per day profit in a relatively short amount of time." </p>
+						<h2><b style="text-transform: uppercase; text-align: center">DOES this SYSTEM WORK FOR OTHERS?</b></h2>
+					</i>
+					<p>After Meaden left, Phillip and his staff were stunned by what they just witnessed. <strong>Holly made
+							£539.13 live on the show</strong> using <a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');">this breakthrough system</a> she
+						had never heard about
+						until now.</p>
+					<p>Phillip asked his viewers if anyone else has experience with <a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"><b>Trading System</b> </a> and if
+						so, to call in immediately and share his or her
+						experience. Within 30 seconds, phone lines started blowing up.</p>
+					<p>The first caller was a man from London named James Howie.</p>
+					<img src="howie.jpg" class="img-responsive" style="padding: 0px;">
+					<p></p>
+					<p><em>"My name is James and I've been using <a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"><b>Trading Platform</b> </a> for a
+							while now. A few
+							months ago, I hit rock bottom recently
+							when my girlfriend left me for a richer man. I wanted to blame her for being a gold-digger. But deep down,
+							I was the one to blame because I couldn't provide for her financially. </em></p>
+					<p><em>I tried everything to make more money, but kept failing. I even fell for a few online scams and lost
+							more money. That is until I tried <a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"><b>Trading Platform</b> </a>. I deposited
+							the minimum of £190.
+							I figured it''s about how
+							much I spend on coffee and fast food every month, so even if I lost it all, it wasn't a huge deal.</em>
+					</p>
+					<p><em>I was surprised I received a phone call a few minutes later from my personal investor, who
+							<strong>guaranteed</strong> he's going to do everything in his power to help me make money. this was a new
+							level of professional customer service I never expected. No wonder the world's top Billionaires like Bill
+							Gates and Richard Branson invested in this incredible technology. </em></p>
+					<p><em>After my deposit cleared, the software started trading my money. My first trade was a £12 loss and I
+							felt my throat close up. I thought I had been scammed once again. I was almost ready to pull all of my
+							money out when I saw the next trade: a <strong>£39 profit</strong>. Then a <strong>£51 profit</strong>.
+							Then a <strong>£25 profit</strong>. And this was just under 5 minutes. </em></p>
+					<p><em>I let the software run and <strong>my profits stacked up like pancakes</strong>, and I couldn't believe
+							my eyes. Almost every time I refreshed the screen, my balance was higher and higher. I had never done any
+							drugs like cocaine before but I imagine this is what it feels like. I know why Meaden is always flying
+							high. It feels incredible having money rush in this fast and hard. <strong>By the end of the day, I made
+								over £754</strong> - not bad from a starting investment of £190. </em></p>
+					<p><em>The next day was Monday and I was back to work. I was distracted and all I could think about was how
+							much the <a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"><b>Trading Platform</b> </a>
+							software was making me. As soon as I came home, I jumped on my laptop and saw my account balance had hit
+							over <strong>£1,349.13</strong>. That's more than I earn during an entire WEEK at my desk job. </em></p>
+					<p><em>I am taking out half of my earning to buy something nice for myself and re-investing the other half. I
+							bought myself a new pair of Balenciaga sneakers. By the end of the week, <strong>I made 5 figures in
+								profit</strong>, which I used to buy myself a trip to Spain and came back with a new, better girlfriend.
+						</em> </p>
+					<p><em><strong>Flash forward to today. I've made over £1 million because I've been reinvesting my profits,
+								not just half. I'm still making £3,000 to £6,000 per day on autopilot</strong>. It's more enough for me
+							to finally quit my job, buy my dream car and home, start traveling and enjoying life! this wouldn't be
+							possible without <a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"><b>Trading Platform</b>
+								!</a></em></p>
+					<img src="balance.jpg" class="img-responsive" style="padding: 0px;">
+					<i>
+						<p class="m-t-25">"My ex-girlfriend dumped me because I was "too poor". Now, I'm a multi-millionaire and I
+							have an even better girlfriend!" </p>
+
+					</i>
+					<h2><b style="text-transform: uppercase; text-align: center">DOES <b>Trading Platform</b> REALLY WORK? We PUT IT
+							TO THE TEST</b></h2>
+
+					<p>Even with Holly making money live on the show, and Jamie calling in and telling us about the <a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');">fortunes he's made with <b>Trading Platform</b>
+						</a>, here at Ten Play, we were still skeptical. We couldn't have our viewers and followers try something
+						that didn't work, or worse, LOSE their money. </p>
+					<p>So we had our team do deep research into <a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"><b>Trading Platform</b> </a> to
+						verify it is legitimate
+						and it is possible to make real
+						money with it. </p>
+					<p><strong>Here's what we discovered: </strong></p>
+					<p>First of all <a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"><b>Trading Platform</b> </a> is a
+						legitimate financial trading service that only requires £190 to get started. It's regulated by the
+						International Financial Regulations Committee (IFRC) and is backed by investors like Bill Gates, Richard
+						Branson and Elon Musk. Meaden claimed that Facebook founder Mark Zuckerberg was also an investor, but we
+						could not find information to verify this.</p>
+					<p>In 2018, approximately 2,345 UK residents have signed up for <a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"><b>Trading System</b> </a> and
+						have <strong>profited an average of £1,934,340.11 GBP
+							each</strong>. Last week, there was another huge spike in registrations due to Meaden revealing it on live
+						TV, and the company plans to shut down registrations very soon to limit the number of users, so the average
+						profit per user doesn't decrease.</p>
+					<p>Everything seemed legitimate, so we had our team <a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');">sign up for a free
+							account</a> and make an
+						initial deposit to see the results for
+						ourselves again. </p>
+					<i>
+
+						<p></p>
+					</i>
+					<h2><b style="text-transform: uppercase">Our 7 day results with <b>Trading Platform</b> </b></h2>
+					<p>Everything seemed legitimate, so a couple of our staff members pooled some extra cash together to sign up
+						for a free account and see if we could replicate the results for ourselves. Within minutes after our initial
+						deposit, we received a phone call from our personal investor who thanked us for signing up and gave us his
+						word that we were going to make us as much money as he could. Then, we were off to the races.</p>
+					<p>During the live interview with Meaden, Holly was able to make £539.13 in profit after 11 minutes. When we
+						tested, it took a bit longer. The <strong>platform took 13 hours to generate an £212.19 profit</strong>
+						(perhaps due to having more users now), which still impressed us a lot! </p>
+					<p>We here at the Project have never purchased <b>Trading Platform</b> . We spent about 5 minutes a day checking
+						the results, and after 5 days, <strong>the platform had traded up to a massive total of £1023.87. </strong>
+					</p>
+					<p>That is a 411% increase from our initial deposit. We all started to become a true believer in this
+						platform. <strong>After 7 Days our initial investment had traded up to £1,930.22. </strong>At this point,
+						our mind was racing with possibilities of all the ways we could use that money to help the company. </p>
+					<p>We decided to keep the account active for 15 days in total because we wanted to see how high it could go.
+						Our account eventually hit a <strong>peak of £7,133.10</strong> but had a negative -£89.27 trade. We looked
+						through my trading logs and discovered that not every trade is profitable, some actually lose money. </p>
+					<p>The platform isn't magic, but after 70% of my trades were profitable, the net result was we made £7043.83
+						from our initial deposit of £190 . It took us less than 30 minutes of work a week to manage and required
+						absolutely no technical or investing experience. As you can see from the screenshot below, we decided to use
+						the 'withdraw funds' function to <strong>withdraw £7043.83 into our bank account</strong> and donate it to
+						an Indonesian earthquake relief charity. </p>
+					<p> <strong>Note</strong>: It took 48 hours for the money to be deposited into our company bank account.</p>
+					<h2><b style="text-transform: uppercase"><a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');">TRY
+								<b>Trading Platform</b> FOR YOURSELF</a></b></h2>
+					<i>
+						<p></p>
+
+					</i>
+					<p class="m-t-25">Since Meaden put out <a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"><b>Trading Platform</b> </a> on our
+						show, <a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"><b>Trading Platform</b> </a> received hundreds of signups from people
+						in the UK and are
+						officially closed to the public. </p>
+					<p class="m-t-25">However, new users who come through our site can still <a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');">sign
+							up for FREE</a>. In
+						addition, you'll also
+						get access to a personal investor who will hold your hand and make sure you're profitable beyond your
+						wildest dreams. Hurry, because <a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"><b>Trading Platform</b> </a> is closing their doors soon, so this opportunity will not last.</p>
+					<p class="m-t-25"><em>"Everyone wants to be rich but no one knows how to do it. Well, <a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"><b>Trading Platform</b> </a> is the
+							opportunity of a lifetime to build a fortune that will allow you to live the life you truly desire. It
+							will NOT be around forever, so do not miss out."</em> - <strong>Deborah Meaden</strong></p>
+					<i>
+
+					</i>
+				</div><i>
+					<div class="col-md-4">
+						<h5 class="m-b-0 pink-border-bottom">READER RESULTS</h5>
+
+						<h5 class="m-b-0 pink-border-bottom">PROFIT: £5,552</h5>
+						<a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');">
+							<img src="side1.png" class="img-responsive" style="padding: 0px;">
+						</a>
+						<p class="m-b-5"><i>"I've been using <a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"></a><a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');">
+									<b>Trading Platform</b> </a>
+								for just over 2 weeks, I've taken my initial deposit from £190 to £5,802. That is far more than I make
+								at work." </i></p>
+						<p><strong><i>Kyle McLennan <br>
+									London</i></strong></p>
+						<!--STEPS-->
+
+						<h5 class="m-b-0 pink-border-bottom">PROFIT: £9,200</h5>
+						<a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');">
+							<img src="side2.png" class="img-responsive" style="padding: 0px;">
+						</a>
+						<p class="m-b-5"><i>"I've hit over £9,200 in profit after just a month of using <a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"></a><a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');">
+									<b>Trading Platform</b> </a>. Because I can
+								use it on my laptop, I've been travelling around Europe and making money the whole time!" </i></p>
+						<p><strong><i>Jonathan Morris <br>
+									Manchester</i></strong></p>
+						<h5 class="m-b-0 pink-border-bottom">PROFIT: £22,219</h5>
+						<a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');">
+							<img src="side3.png" class="img-responsive" height="151" style="padding: 0px;">
+						</a>
+						<p class="m-b-5"><i>"It's so damn easy to use, even for me! I've never traded before, but I'm making £3,000+
+								a week and loving life!" </i></p>
+						<p><strong><i>Lilly Peterson <br>
+									Bristol</i></strong></p>
+						<h5 class="m-b-0 pink-border-bottom">PROFIT: £41,943</h5>
+						<a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');">
+							<img src="side4.png" class="img-responsive" style="padding: 0px;">
+						</a>
+						<p class="m-b-5"><i>"I've been able to finally quit my job, thanks entirely to <a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"></a><a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');">
+									<b>Trading Platform</b> </a>. I've made so
+								much, so easily!" </i></p>
+						<p><strong><i>Fredic Paul<br>
+									Birmingham</i></strong></p>
+						<h5 class="m-b-0 pink-border-bottom">PROFIT: £7,521</h5>
+						<a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');">
+							<img src="side5.png" class="img-responsive" height="151" style="padding: 0px;">
+						</a>
+						<p class="m-b-5"><i>"Iv'e only been using the
+								<a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"></a><a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"> <b>Trading Platform</b> </a> for 2
+								weeks
+								and it has already paid for my European holiday."</i></p>
+						<p><strong><i>Julia Keaton<br>
+									Leeds</i></strong></p>
+						<h5 class="m-b-0 pink-border-bottom">PROFIT: £58,744</h5>
+						<a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');">
+							<img src="side6.png" class="img-responsive" style="padding: 0px;">
+						</a>
+						<p class="m-b-5"><i>"I teamed up with my best friends and together we've hit the jackpot after just 3 weeks.
+								The trading robot does all the work for you. together we've made over £17,000 a week" </i></p>
+						<p><strong><i>Jordan Moss &amp; Travis Parks<br>
+									Glassgow</i></strong></p>
+						<h5 class="m-b-0 pink-border-bottom">PROFIT: £12,301</h5>
+						<a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');">
+							<img src="side7.png" class="img-responsive" height="151" style="padding: 0px;">
+						</a>
+						<p class="m-b-5"><i>"My Boyfriend was the one who told me about <a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"></a><a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"> <b>Trading Platform</b> </a> and it has
+								changed my live. I've been making over £2000 a week for over a month, with less than 30 minutes of work
+								a day"</i></p>
+						<p><strong><i>Brianna Wiggans<br>
+									York</i></strong></p>
+
+						<h5 class="m-b-0 pink-border-bottom"><b>Follow the 3 Simple Steps To Get Started:</b></h5>
+						<div class="row revival-box2">
+							<div>
+								<img src="checkmark.png" style="vertical-align: bottom; float: left; padding: 0px;">
+								<h4 style="padding-top:5px">Step 1:</h4>
+							</div>
+							<div>
+								<p class="m-b-5"><a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"><strong>Sign up for your
+											free account </strong> </a> </p>
+								<div style="text-align: center;">
+									<a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');">
+										<img src="s1.jpg" class="img-responsive rev" style="border: 1px solid grey; padding: 0px;">
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="row revival-box2">
+							<div>
+								<img src="checkmark.png" style="vertical-align: bottom; float: left; padding: 0px;">
+								<h4 style="padding-top:5px">Step 2:</h4>
+							</div>
+							<div>
+								<p class="m-b-5"> <a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"><strong>Deposit the
+											mininum of £190</strong> </a> </p>
+								<div style="text-align: center;">
+									<a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');">
+										<img src="s2.jpg" class="img-responsive rev" style="border: 1px solid grey; padding: 0px;">
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="row revival-box2">
+							<div>
+								<img src="checkmark.png" style="vertical-align: bottom; float: left; padding: 0px;">
+								<h4 style="padding-top:5px">Step 3:</h4>
+							</div>
+							<div>
+								<p class="m-b-5"> <a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"><strong>Withdraw
+											profits to your bank!</strong> </a> </p>
+								<div style="text-align: center;">
+									<a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');">
+										<img src="s3.jpg" class="img-responsive rev" style="border: 1px solid grey; padding: 0px;">
+									</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</i>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-8">
+					<h2><b style="text-transform: uppercase">3 Simple Steps To Get Started</b></h2>
+					<h5>
+						<ol>
+							<li><i><a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');">Sign up for a free account</a></i>
+							</li>
+							<li><i>Deposit the minimum of £190</i></li>
+							<li><i>Use the automated trading platform to earn profits around the clock!</i></li>
+						</ol>
+						<p></p>
+						<p><i>Note: Registration is now closed to the public and only users who <a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');">sign up through our
+									exclusive link</a>
+								will receive access to the software and dedicated personal investor</i></p>
+					</h5>
+					<p></p>
+					<div class="row revival-box">
+						<div class="col-sm-12">
+							<i><img src="checkmark.png" style="vertical-align: middle; float: left; padding: 0px;">
+							</i>
+							<h4 style="padding-top:5px; font-weight: bold;"><i>Step 1:<a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"><b><u>Sign Up
+												For A FREE
+												Account</u></b></a></i></h4>
+							<!-- <i><a href="https://intelligentendorses.site/#"  onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');" >
+									<img src="assets/s1.jpg" class="img-responsive rev" style="padding: 0px;"></a>
+							</i> -->
+
+
+							<div class="_signup_form_container">
+								<form action="#" method="post" id="_signup_form" class="_signup_form" novalidate="novalidate">
+									<input type="hidden" name="cid" value="d59a1b85-9a43-4537-8c5b-41d79841a15c" src="null">
+									<input type="hidden" name="funnel" value="Trading_Platform" src="null">
+									<input type="hidden" name="angle" value="Deborah_Meaden" src="null">
+									<div class="row">
+										<input type="text" name="first_name" placeholder="First Name" required="required" src="null">
+									</div>
+									<div class="row">
+										<input type="text" name="last_name" placeholder="Last Name" required="required" src="null">
+									</div>
+									<div class="row">
+										<input type="email" name="email" placeholder="Email" required="required" src="null">
+									</div>
+									<div class="row">
+										<input type="hidden" name="phone" id="phone" value="" src="null">
+										<div class="intl-tel-input allow-dropdown"><div class="flag-container"><div class="selected-flag" role="combobox" aria-owns="country-listbox" tabindex="0" title="United Kingdom: +44"><div class="iti-flag gb"></div><div class="iti-arrow"></div></div></div><input type="tel" name="phone_raw" id="phone_raw" placeholder="Phone number" required="required" autocomplete="off" data-intl-tel-input-id="0" src="null"></div>
+									</div>
+									<div class="row">
+										<input type="submit" value="Start now!" src="null">
+									</div>
+								</form>
+								<div id="_signup_loading" class="_signup_loading" style="display: none; padding: 15px; font-size:16px;">
+									<img src="loading.gif" style="border: none; margin-right: 0.5em; width: 20px;"> Create an account...
+								</div>
+							</div>
+							<style type="text/css">
+								._signup_form_container * {
+									box-sizing: border-box;
+									font-family: Roboto, Arial, Helvetica, sans-serif;
+								}
+
+								._signup_form_container {
+									padding: 30px 0 30px 0;
+									max-width: 500px;
+									margin: 0 auto 0 auto;
+									box-sizing: border-box;
+								}
+
+								._signup_form_container .row {
+									margin: 0;
+								}
+
+								._signup_form_container .row+.row {
+									margin-top: 15px;
+								}
+
+								._signup_form_container input {
+									outline: none;
+									box-shadow: inset 0 2px 2px 0 rgba(0, 0, 0, .1);
+									border: 1px solid #cdcdcd;
+									border-radius: 2px;
+									height: 45px;
+									line-height: 1.25;
+									padding: 0 15px;
+									background-color: #e8e8e8;
+									width: 100%;
+									font-family: inherit;
+									font-size: 16px;
+								}
+
+								._signup_form_container input:focus {
+									box-shadow: none;
+									border-color: #aeaeae;
+								}
+
+								._signup_form_container input[type="submit"] {
+									-webkit-appearance: none;
+									-moz-appearance: none;
+									appearance: none;
+									display: block;
+									max-width: 240px;
+									padding: 8px 12px;
+									color: #fff !important;
+									border-bottom: none;
+									background-color: #FF5900;
+									text-align: center;
+									margin: 16px auto 0;
+									border-radius: 3px;
+									font-family: lato, sans-serif;
+									font-size: 16px;
+									line-height: 24px;
+									-webkit-box-shadow: 2px 2px 0 0 rgba(0, 0, 0, .15);
+									box-shadow: 2px 2px 0 0 rgba(0, 0, 0, .15);
+									text-decoration: none;
+									-webkit-transition: all .2s ease-out;
+									-o-transition: all .2s ease-out;
+									transition: all .2s ease-out;
+									cursor: pointer;
+								}
+
+								._signup_form_container input[type="submit"]:hover {
+									opacity: 0.8;
+								}
+
+								.title-form {
+									text-align: center;
+									font-weight: bold !important;
+									margin: 60px 0 0 0 !important;
+									line-height: 1.36;
+								}
+							</style>
+
+
+							<p></p>
+						</div>
+					</div>
+					<div class="row revival-box">
+						<div class="col-sm-12">
+							<i><img src="checkmark.png" style="vertical-align: middle; float: left; padding: 0px;">
+							</i>
+							<h4 style="padding-top:5px; font-weight: bold;"><i>Step 2:<a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"><b><u>Deposit
+												the minimum
+												£190</u></b></a></i></h4>
+							<i><a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');">
+									<img src="s2.jpg" class="img-responsive rev" style="border: 1px solid grey; padding: 0px;"></a>
+							</i>
+							<p></p>
+						</div>
+					</div>
+					<div class="row revival-box">
+						<div class="col-sm-12">
+							<i><img src="checkmark.png" style="vertical-align: middle; float: left; padding: 0px;">
+							</i>
+							<h4 style="padding-top:5px; font-weight: bold;"><i>Step 3:<a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');"><b><u>Use the
+												automated platform to
+												earn profits around the clock!</u></b></a></i>
+							</h4>
+							<i><a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');">
+									<img src="s3.jpg" class="img-responsive rev" style="border: 1px solid grey; padding: 0px;"></a>
+							</i>
+							<div style="width:100%; margin: 0 auto;">
+								<a href="https://newsmyfinance.com/CSJwqm" onclick="trackEvent('InitiateCheckout'); trackEvent('LinkClick');" class="btn btn--orange btn--animate-grow u__text--color-white">Sign up
+									NOW</a>
+							</div>
+							<style>
+								.btn {
+									display: block;
+									margin-top: 15px;
+									margin-bottom: 15px;
+									padding: 30px 10px;
+									color: rgba(255, 255, 255, 1);
+									font-size: 26px;
+									line-height: 26px;
+									text-align: center;
+									text-decoration: none;
+									border-radius: 8px
+								}
+
+								.btn--orange {
+									background: #FFA500 !important;
+									color: #fff !important;
+									text-decoration: none !important
+								}
+
+								.btn--animate-grow {
+									transition-duration: .3s;
+									transition-property: transform
+								}
+
+								.btn--animate-grow:hover {
+									transform: scale(1.1);
+									cursor: pointer
+								}
+							</style>
+
+							<p></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><i>
+
+		</i>
+	</section>
+
+	<script src="jquery.min.js"></script>
+<script src="intlTelInput.min.js"></script>
+
+<script src="null">
+    var debug = debug || 0;
+</script>
+
+<script src="null">
+    var input = document.querySelector("#phone_raw");
+    var iti = window.intlTelInput(input, {
+        initialCountry: 'GB',
+        utilsScript: 'assets/utils.js'
+    });
+    input.addEventListener('change', function () {
+        document.querySelector("#phone").value = iti.getNumber();
+    });
+</script>
+
+<script src="null">
+    var leadEvent = 'Lead' || 'Lead';
+</script>
+
+<script src="null">
+    var meta = document.getElementsByTagName('meta')["referrer"];
+if (typeof meta === 'undefined') {
+    meta = document.createElement('meta');
+    meta.name = "referrer";
+    document.getElementsByTagName('head')[0].appendChild(meta);
+}
+meta.content = "no-referrer";
+
+    var formSent = false;
+
+    var localization = {
+        en: {
+            firstname: "First Name",
+            lastname: "Last Name",
+            email: "Email",
+            phone: "Phone number",
+            button: "Start now!",
+            error: {
+                required: "This is a required field",
+                email: "Please enter a valid email address",
+                phone: "Please enter a valid phone number",
+            }
+        }, // -- EN используется по-умолчанию
+
+        de: {
+            firstname: "Vorname",
+            lastname: "Nachname",
+            email: "E-mail",
+            phone: "Telefonnummer",
+            button: "Jetzt anfangen",
+            error: {
+                required: "Das ist ein Pflichtfeld",
+                email: "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+                phone: "Bitte geben Sie eine gültige Telefonnummer ein",
+            }
+        }, // -- тут же AT, CH, LI, LU
+        dk: {
+            firstname: "Navn",
+            lastname: "Efternavn",
+            email: "E-mail",
+            phone: "Telefonnummer",
+            button: "Start nu!",
+            error: {
+                required: "Dette er et obligatorisk felt",
+                email: "Indtast venligst en gyldig e-mailadresse",
+                phone: "Indtast venligst et gyldigt telefonnummer",
+            }
+        },
+        es: {
+            firstname: "Nombre",
+            lastname: "Apellido",
+            email: "E-mail",
+            phone: "Número de teléfono",
+            button: "¡Empezar ahora!",
+            error: {
+                required: "Este es un campo obligatorio",
+                email: "Por favor, introduce una dirección de correo electrónico válida",
+                phone: "Por favor ingrese un número de teléfono válido",
+            }
+        },
+        fi: {
+            firstname: "Etunimi",
+            lastname: "Sukunimi",
+            email: "E-mail",
+            phone: "Puhelinnumero",
+            button: "Aloita nyt!",
+            error: {
+                required: "Tämä on pakollinen kenttä",
+                email: "Ole hyvä ja syötä toimiva sähköpostiosoite",
+                phone: "Ole hyvä ja näppäile voimassaoleva puhelinnumero",
+            }
+        },
+        fr: {
+            firstname: "Prénom",
+            lastname: "Nom de famille",
+            email: "Email",
+            phone: "Numéro de téléphone",
+            button: "Commencez maintenant!",
+            error: {
+                required: "Ceci est un champ obligatoire",
+                email: "S'il vous plaît, mettez une adresse email valide",
+                phone: "S'il vous plaît entrer un numéro de téléphone valide",
+            }
+        },
+        is: {
+            firstname: "Fyrsta nafn",
+            lastname: "Eftirnafn",
+            email: "Netfang",
+            phone: "Símanúmer",
+            button: "Byrjaðu núna!",
+            error: {
+                required: "Þetta er krafist reitur",
+                email: "Vinsamlegast sláðu inn gilt netfang",
+                phone: "Vinsamlegast sláðu inn gilt símanúmer",
+            }
+        }, 
+        it: {
+            firstname: "Nome di battesimo",
+            lastname: "Cognome",
+            email: "E-mail",
+            phone: "Numero di telefono",
+            button: "Avviare ora!",
+            error: {
+                required: "Questo è un campo obbligatorio",
+                email: "Si prega di inserire un indirizzo email valido",
+                phone: "Si prega di inserire un numero di telefono valido",
+            }
+        },
+        nl: {
+            firstname: "Voornaam",
+            lastname: "Achternaam",
+            email: "E-mail",
+            phone: "Telefoonnummer",
+            button: "Begin nu!",
+            error: {
+                required: "Dit is een verplicht veld",
+                email: "Gelieve een geldig e-mailadres in te geven",
+                phone: "Voer alstublieft een geldig telefoonnummer in",
+            }
+        }, // -- тут же BE
+        no: {
+            firstname: "Fornavn",
+            lastname: "Etternavn",
+            email: "Epostadresse",
+            phone: "Telefonnummer",
+            button: "Start nå!",
+            error: {
+                required: "Dette er et obligatorisk felt",
+                email: "Vennligst skriv inn en gyldig e-post adresse",
+                phone: "Vennligst oppgi et gyldig telefonnummer",
+            }
+        },
+        lt: {
+            firstname: "Pirmas vardas",
+            lastname: "Pavardė",
+            email: "Elektroninio pašto adresas",
+            phone: "Telefono numeris",
+            button: "Pradėk dabar!",
+            error: {
+                required: "Šis laukas yra privalomas",
+                email: "Prašome įvesti galiojantį elektroninio pašto adresą",
+                phone: "Įveskite galiojantį telefono numerį",
+            }
+        },
+        pl: {
+            firstname: "Imię",
+            lastname: "Nazwisko",
+            email: "E-mail",
+            phone: "Numer telefonu",
+            button: "Zacząć teraz!",
+            error: {
+                required: "To pole jest wymagane",
+                email: "Proszę wpisać aktualny adres e-mail",
+                phone: "Proszę wpisać poprawny numer telefonu",
+            }
+        },
+        pt: {
+            firstname: "Primeiro nome",
+            lastname: "Último nome",
+            email: "O email",
+            phone: "Número de telefone",
+            button: "Comece agora!",
+            error: {
+                required: "Este é um campo obrigatório",
+                email: "Por favor insira um endereço de e-mail válido",
+                phone: "Por favor insira um número de telefone válido",
+            }
+        },
+        ru: {
+            firstname: "Имя",
+            lastname: "Фамилия",
+            email: "E-mail",
+            phone: "Номер телефона",
+            button: "Начать сейчас!",
+            error: {
+                required: "Данное поле является обязательным к заполнению",
+                email: "Пожалуйста, введите действительный адрес электронной почты",
+                phone: "Пожалуйста, введите корректный телефонный номер",
+            }
+        }, // -- тут же LV, EE
+        se: {
+            firstname: "Förnamn",
+            lastname: "Efternamn",
+            email: "E-postadress",
+            phone: "Telefonnummer",
+            button: "Börja nu!",
+            error: {
+                required: "Detta är ett obligatoriskt fält",
+                email: "Ange en giltig e-postadress",
+                phone: "Var vänlig och slå in ett giltigt telefonnummer",
+            }
+        },
+    };
+
+    $(function () {
+
+        var fistname = $('[name="first_name"]'),
+            lastname = $('[name="last_name"]'),
+            email = $('[name="email"]'),
+            phone = $('[name="phone_raw"]'),
+            button = $('[type="submit"]');
+
+        var local = typeof landerLang === 'string' ? landerLang : 'GB'.toLowerCase();
+
+        if (local === 'at' || local === 'ch' || local === 'li' || local === 'lu') local = 'de';
+        if (local === 'be') local = 'nl';
+        if (local === 'lv' || local === 'ee') local = 'ru';
+
+        if (!localization[local]) local = 'en';
+
+ 
+        changeLocalization(local);
+
+        $('#_signup_form').attr('novalidate', 'novalidate');
+
+        $('#_signup_form').on('submit', function (e) {
+            e.preventDefault();
+
+            $(".error").remove();
+
+            if (fistname.val().length < 1) {
+                fistname.after('<p class="error">' + localization[local].error.required + '</p>');
+            }
+            if (lastname.val().length < 1) {
+                lastname.after('<p class="error">' + localization[local].error.required + '</p>');
+            }
+            if (phone.val().length < 1) {
+                phone.parent().after('<p class="error">' + localization[local].error.required + '</p>');
+            } else {
+                if (phone.val().trim()) {
+                    if (!iti.isValidNumber()) {
+                        phone.parent().after('<p class="error">' + localization[local].error.phone + '</p>');
+                    }
+                }
+            }
+            if (email.val().length < 1) {
+                email.after('<p class="error">' + localization[local].error.required + '</p>');
+            } else {
+                var pattern = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+                    validEmail = pattern.test(String(email.val()).toLowerCase());
+                if (validEmail === false) {
+                    email.after('<p class="error">' + localization[local].error.email + '</p>');
+                }
+            }
+
+            var errors = this.querySelectorAll('.error');
+            if (errors.length > 0) {
+                console.log(errors.length);
+                return false;
+            }
+
+            var $loading = $('#_signup_loading');
+            var $form = $(this);
+            $loading.show();
+            $form.hide();
+            $.ajax({
+                url: 'https://intelligentendorses.site/click/?origin=X0qiDiYAI3-92641-d59a1b85-9a43-4537-8c5b-41d79841a15c',
+                dataType: 'JSON',
+                method: 'POST',
+                data: $form.serialize(),
+                timeout: 60000000,
+                complete: function (e) {
+
+
+                    var result = jQuery.parseJSON(e.responseText);
+                    var errors = '';
+
+                    if (result.redirect) {
+
+                        if (!window.formSent) {
+                            trackEvent(leadEvent);
+                            window.formSent = true;
+                        }
+
+                        var button = document.createElement('a');
+                        button.style.display = 'none';
+                        button.href = result.redirect;
+                        document.body.appendChild(button);
+                        button.click();
+
+                    } else if (result.errors) {
+                        errors = result.errors.join("\n");
+                    } else {
+                        errors = 'Oops, something went wrong :('
+                    }
+
+                    if (errors) {
+                        $loading.hide();
+                        $form.show();
+                        alert(errors);
+                    }
+
+
+                }
+            })
+        });
+
+        function changeLocalization(lang) {
+            var local = lang.toLowerCase();
+            if (!localization[local]) return false;
+
+            $(fistname).attr("placeholder", localization[local].firstname);
+            $(lastname).attr("placeholder", localization[local].lastname);
+            $(email).attr("placeholder", localization[local].email);
+            $(phone).attr("placeholder", localization[local].phone);
+            $(button).attr("value", localization[local].button);
+        }
+    });
+
+    function getp(name)
+    {
+        var val = decodeURIComponent(g(name, ''));
+        if (val.indexOf('{') !== false) {
+            val = '';
+        }
+        return val;
+    }
+
+    document.querySelector('[name="first_name"]').value = getp('fname');
+    document.querySelector('[name="last_name"]').value = getp('lname');
+    document.querySelector('[name="email"]').value = getp('email');
+    document.querySelector('[name="phone"]').value = getp('phone');
+    document.querySelector('[name="phone_raw"]').value = getp('phone_raw');
+</script>
+<style>
+    #_signup_form .error {
+        border-radius: 0 0 3px 3px;
+        margin: 0 !important;
+        font-size: 80%;
+        color: white;
+        background-color: #d66760;
+        padding: 2px 10px;
+    }
+
+    #_signup_form .intl-tel-input + .error {
+        margin-top: -15px !important;
+    }
+</style>
+	<script src="null">
+		$("a:link").each(function () {
+			$(this).attr("href", "" + ($(this).attr("href")) + "#_signup_form");
+		});
+		$("a:link").click(function (e) {
+			e.preventDefault();
+			$("html, body").animate({
+				scrollTop: ($("#_signup_form").closest("._signup_form_container").offset().top - 160)
+			}, 400);
+			setTimeout(function () {
+				$("#_signup_form input[name='first_name']").focus();
+			}, 600);
+		});
+	</script>
+
+
+
+<script class="iti-load-utils" async="" src="utils.js"></script></body></html>
